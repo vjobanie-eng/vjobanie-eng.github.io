@@ -1,0 +1,53 @@
+body{ 
+background-color: blue; 
+} 
+.img1{ 
+width: 100%; 
+height: 300px; 
+} 
+table, tr, td{ 
+border: 1px solid black;  
+border-collapse: collapse; 
+} 
+.container{ 
+position: relative; 
+} 
+.text-overlay{ 
+position: absolute; 
+top: 50%; left: 50%; transform: translate(-50%, -50%); 
+color: white; 
+font-size: 70px; 
+font-weight: bold; 
+} 
+.container2{ 
+position: relative; 
+text-align: right; 
+} 
+.img2{ 
+width:50%; 
+height:550px; 
+position: relative; 
+} 
+.container3{ 
+position: relative; 
+width: 100%; 
+float: left; 
+} 
+.text-overlay1{ 
+position: absolute; 
+top: 20px; 
+left: 20px; 
+color: black; 
+font-size: 30px; 
+float: left; 
+} 
+.img3{ 
+width:100%; 
+height:550px; 
+position: relative; 
+float: left 
+} 
+.con{ 
+display: flexbox; 
+width: 49%; 
+}
